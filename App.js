@@ -1,10 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+const name ="WIl.BHO"
+let gender = true
 export default function App() {
   return (
     <View style={[styles.container,{borderRadius:10}]}>
       <Text style={styles.Text}>ola ke ase REact native</Text>
+      <Text>{name}</Text>
+      <text> {gender ? 'Masculino' : 'Femenino'} </text>
       <StatusBar style="auto" />
     </View>
   );
